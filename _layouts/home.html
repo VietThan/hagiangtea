@@ -13,8 +13,8 @@ bodyClass: "page-home"
         {% endif %}
       </div>
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
       <!-- <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative"> -->
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
@@ -25,8 +25,8 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      {% assign limit = site.home.limit_projects | default: 6 %}
-      {% for project in site.projects limit: limit %}
+      {% assign limit = site.home.limit_products | default: 6 %}
+      {% for project in site.products limit: limit %}
       <div class="col-12 col-md-4 mb-1">
         <div class="project project-summary">
           <div class="project-content">
@@ -41,7 +41,7 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "projects" | relative_url }}">View All Projects</a>
+        <a class="button button-primary" href="{{ "products" | relative_url }}">Tất Cả Sản Phẩm</a>
       </div>
     </div>
   </div>

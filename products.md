@@ -1,10 +1,10 @@
 ---
-title: projects
+title: products
 layout: projects
-description: projects
+description: products
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# projects that grow the community
+# products that grow the community

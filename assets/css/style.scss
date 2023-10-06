@@ -5,10 +5,10 @@
 $primary: #D7BC6B; // D7BC6B
 $primary-dark: #1B4873; // 1B4873
 $secondary: #3081CF; // 3081CF
-$black: #2f2f41;
+$black: #1B4873; // 2f2f41
 $white: #ffffff;
 $white-offset: #FFF5D4;
-$steel: #5c5a5a;
+$steel: #1B4873; // 5c5a5a
 
 // Links
 $link-color: $primary;
@@ -69,4 +69,5 @@ body {
     font-size: 16px;
     line-height: 1.3;
   }
+  color: $black;
 }
