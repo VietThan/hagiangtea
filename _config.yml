@@ -3,12 +3,12 @@ permalink: pretty
 title: 'VietnamMUN.org'
 
 logo:
-  mobile: "images/logo/logo-mobile-54x54.svg"
+  mobile: "images/favicon-32x32.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo-366x42.svg"
-  desktop_height: "42px"
-  desktop_width: "366px"
+  desktop: "images/favicon-256x256.svg"
+  desktop_height: "100px"
+  desktop_width: "100px"
 
 home: 
   limit_projects: 3
